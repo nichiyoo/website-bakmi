@@ -6,9 +6,20 @@
 		<title>Bakmi Ponyo - Home</title>
 
 		<!-- manifest -->
-		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="apple-touch-icon.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="favicon-32x32.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="favicon-16x16.png" />
 		<link rel="manifest" href="site.webmanifest" />
 
 		<!-- seo -->
@@ -27,7 +38,9 @@
 		<meta property="og:title" content="Bakmi Ponyo" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://website-bakmi.vercel.app/" />
-		<meta property="og:image" content="https://website-bakmi.vercel.app/img/hero.jpg" />
+		<meta
+			property="og:image"
+			content="https://website-bakmi.vercel.app/img/hero.jpg" />
 		<meta
 			property="og:description"
 			content="Bakmi Ponyo adalah restoran makanan yang dibuat dengan bahan berkualitas dan penuh kehangatan khas Bakmi Ponyo" />
@@ -42,7 +55,57 @@
 		<meta
 			name="twitter:description"
 			content="Bakmi Ponyo adalah restoran makanan yang dibuat dengan bahan berkualitas dan penuh kehangatan khas Bakmi Ponyo" />
-		<meta name="twitter:image" content="https://website-bakmi.vercel.app/img/hero.jpg" />
+		<meta
+			name="twitter:image"
+			content="https://website-bakmi.vercel.app/img/hero.jpg" />
+
+		<!-- schema -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Restaurant",
+				"image": [
+					"https://website-bakmi.vercel.app/img/galleries/gallery-1.jpg",
+					"https://website-bakmi.vercel.app/img/galleries/gallery-2.jpg",
+					"https://website-bakmi.vercel.app/img/galleries/gallery-3.jpg",
+				 ],
+				"name": "Bakmi Ponyo",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "Komplek Bumi Sariwangi Blok J No 17, Sariwangi, Parongpong, Bandung City, West Java 40559",
+					"addressLocality": "Bandung City",
+					"addressRegion": "West Java",
+					"postalCode": "40559",
+					"addressCountry": "ID"
+				},
+				"geo": {
+					"@type": "GeoCoordinates",
+					"latitude": -6.8614336,
+					"longitude": 107.5711076,
+				},
+				"url": "https://website-bakmi.vercel.app",
+				"telephone": "+6283812342603",
+				"servesCuisine": "Indonesian",
+				"priceRange": "$",
+				"openingHoursSpecification": [
+					{
+						"@type": "OpeningHoursSpecification",
+						"dayOfWeek": [
+							"Monday",
+							"Tuesday",
+							"Wednesday",
+							"Thursday",
+							"Friday",
+							"Saturday",
+							"Sunday"
+						],
+						"opens": "11:30",
+						"closes": "22:00"
+					},
+				],
+				"menu": "https://website-bakmi.vercel.app/menu.html"
+			}
+		</script>
 
 		<!-- google fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,7 +116,9 @@
 
 		<!-- AOS -->
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<link
+			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+			rel="stylesheet" />
 
 		<!-- Lucide -->
 		<script src="https://unpkg.com/lucide@latest"></script>
@@ -85,23 +150,36 @@
 				</a>
 
 				<ul class="nav">
-					<li><a href="index.html" class="active" aria-current="page">Home</a></li>
+					<li>
+						<a href="index.html" class="active" aria-current="page"
+							>Home</a
+						>
+					</li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="menu.html">Menu</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 
-				<a href="order.html" class="cta"><button class="secondary">Order Now</button></a>
+				<a href="order.html" class="cta"
+					><button class="secondary">Order Now</button></a
+				>
 			</div>
 		</nav>
 
 		<section class="hero">
 			<div class="container content" data-aos="zoom-out">
 				<h1>Nikmati Kezelatan Bakmi Terbaik di Setiap Suapan</h1>
-				<p>Temukan sensasi rasa autentik yang dibuat dengan bahan berkualitas dan penuh kehangatan khas Bakmi Ponyo</p>
+				<p>
+					Temukan sensasi rasa autentik yang dibuat dengan bahan
+					berkualitas dan penuh kehangatan khas Bakmi Ponyo
+				</p>
 				<div class="group">
-					<a href="order.html"><button class="primary">Order Now</button></a>
-					<a href="menu.html"><button class="secondary">Explore More</button></a>
+					<a href="order.html"
+						><button class="primary">Order Now</button></a
+					>
+					<a href="menu.html"
+						><button class="secondary">Explore More</button></a
+					>
 				</div>
 			</div>
 		</section>
@@ -115,7 +193,10 @@
 						<img src="img/bakmi.png" alt="Bakmi Ponyo" />
 						<div class="detail">
 							<h5>Bakmi</h5>
-							<p>Era baru kelezatan, kami menyambut masa depan dengan cita rasa khas yang membanggakan</p>
+							<p>
+								Era baru kelezatan, kami menyambut masa depan
+								dengan cita rasa khas yang membanggakan
+							</p>
 							<a href="menu.html?category=bakmi">Explore Menu</a>
 						</div>
 					</div>
@@ -124,7 +205,10 @@
 						<img src="img/dimsum.png" alt="Dimsum Ponyo" />
 						<div class="detail">
 							<h5>Dimsum</h5>
-							<p>Era baru kelezatan, kami menyambut masa depan dengan cita rasa khas yang membanggakan</p>
+							<p>
+								Era baru kelezatan, kami menyambut masa depan
+								dengan cita rasa khas yang membanggakan
+							</p>
 							<a href="menu.html?category=dimsum">Explore Menu</a>
 						</div>
 					</div>
@@ -135,8 +219,14 @@
 		<section class="about muted">
 			<div class="container content">
 				<div class="illustration">
-					<img src="img/about.jpg" alt="Bakmi Ponyo Illustration" data-aos="zoom-out" />
-					<div class="contact" data-aos="zoom-out" data-aos-delay="200">
+					<img
+						src="img/about.jpg"
+						alt="Bakmi Ponyo Illustration"
+						data-aos="zoom-out" />
+					<div
+						class="contact"
+						data-aos="zoom-out"
+						data-aos-delay="200">
 						<h2>Come and visit us</h2>
 
 						<ul>
@@ -146,12 +236,17 @@
 							</li>
 							<li>
 								<i data-lucide="instagram" class="icon"></i>
-								<a href="https://instagram.com/bakmiponyo">instagram.com/bakmiponyo</a>
+								<a href="https://instagram.com/bakmiponyo"
+									>instagram.com/bakmiponyo</a
+								>
 							</li>
 							<li>
 								<i data-lucide="map-pin" class="icon"></i>
-								<a href="https://maps.app.goo.gl/Cax7cLtdNzV8dN6NA">
-									Komplek Bumi Sariwangi Blok J No 17, Sariwangi, Parongpong, Bandung City, West Java 40559
+								<a
+									href="https://maps.app.goo.gl/Cax7cLtdNzV8dN6NA">
+									Komplek Bumi Sariwangi Blok J No 17,
+									Sariwangi, Parongpong, Bandung City, West
+									Java 40559
 								</a>
 							</li>
 						</ul>
@@ -160,20 +255,25 @@
 
 				<div class="detail">
 					<h3>
-						Kami menyajikan makanan sehat untuk keluarga Anda dengan pilihan menu terbaik yang selalu menjadi favorit
+						Kami menyajikan makanan sehat untuk keluarga Anda dengan
+						pilihan menu terbaik yang selalu menjadi favorit
 						pelanggan.
 					</h3>
 
 					<p class="subtitle">
-						Kisah kami dimulai dengan visi untuk menciptakan pengalaman makan yang unik, memadukan kuliner khas dengan
-						cita rasa yang unggul. Menu Bakmi Ponyo yang tersedia telah menjadi best seller karena kualitas bahan,
-						keaslian rasa, dan sentuhan budaya lokal yang istimewa.
+						Kisah kami dimulai dengan visi untuk menciptakan
+						pengalaman makan yang unik, memadukan kuliner khas
+						dengan cita rasa yang unggul. Menu Bakmi Ponyo yang
+						tersedia telah menjadi best seller karena kualitas
+						bahan, keaslian rasa, dan sentuhan budaya lokal yang
+						istimewa.
 					</p>
 
 					<p>
-						Di Bakmi Ponyo, kami percaya bahwa makan bukan sekadar hidangan, tetapi juga pengalaman yang berkesan. Staf
-						kami yang ramah dan berdedikasi memastikan setiap sajian menjadi momen tak terlupakan bagi Anda dan
-						keluarga.
+						Di Bakmi Ponyo, kami percaya bahwa makan bukan sekadar
+						hidangan, tetapi juga pengalaman yang berkesan. Staf
+						kami yang ramah dan berdedikasi memastikan setiap sajian
+						menjadi momen tak terlupakan bagi Anda dan keluarga.
 					</p>
 				</div>
 			</div>
@@ -188,12 +288,16 @@
 						<div class="detail">
 							<h4>The best restaurant</h4>
 							<cite>
-								Tadi malam, kami makan di Bakmi Ponyo dan benar-benar terkesan. Sejak kami melangkah masuk, kami
-								langsung disambut dengan suasana yang hangat dan senyuman ramah dari staf.
+								Tadi malam, kami makan di Bakmi Ponyo dan
+								benar-benar terkesan. Sejak kami melangkah
+								masuk, kami langsung disambut dengan suasana
+								yang hangat dan senyuman ramah dari staf.
 							</cite>
 						</div>
 						<div class="user">
-							<img src="img/testimonies/yasmin.jpg" alt="Yasmin Rifda" />
+							<img
+								src="img/testimonies/yasmin.jpg"
+								alt="Yasmin Rifda" />
 							<div class="account">
 								<h5>Yasmin Rifda</h5>
 								<span>Jakarta</span>
@@ -205,12 +309,16 @@
 						<div class="detail">
 							<h4>Simply delicious</h4>
 							<cite>
-								Bakmi Ponyo melebihi ekspektasi saya di segala aspek. Suasananya yang nyaman dan santai menjadikannya
-								tempat yang sempurna untuk makan malam ulang tahun kami.
+								Bakmi Ponyo melebihi ekspektasi saya di segala
+								aspek. Suasananya yang nyaman dan santai
+								menjadikannya tempat yang sempurna untuk makan
+								malam ulang tahun kami.
 							</cite>
 						</div>
 						<div class="user">
-							<img src="img/testimonies/shalisa.jpg" alt="Shalisa Rizkiannisa" />
+							<img
+								src="img/testimonies/shalisa.jpg"
+								alt="Shalisa Rizkiannisa" />
 							<div class="account">
 								<h5>Shalisa Rizkiannisa</h5>
 								<span>Bandung</span>
@@ -221,12 +329,16 @@
 						<div class="detail">
 							<h4>One of a kind restaurant</h4>
 							<cite>
-								Pengalaman kuliner di Bakmi Ponyo tidak ada tandingannya. Suasananya yang hidup, makanannya—luar biasa.
-								Makanan menjadi sorotan utama malam kami. Sangat direkomendasikan.
+								Pengalaman kuliner di Bakmi Ponyo tidak ada
+								tandingannya. Suasananya yang hidup,
+								makanannya—luar biasa. Makanan menjadi sorotan
+								utama malam kami. Sangat direkomendasikan.
 							</cite>
 						</div>
 						<div class="user">
-							<img src="img/testimonies/ridho.jpg" alt="Ridho Dinata" />
+							<img
+								src="img/testimonies/ridho.jpg"
+								alt="Ridho Dinata" />
 							<div class="account">
 								<h5>Ridho Dinata</h5>
 								<span>Padang</span>
@@ -246,28 +358,40 @@
 					</a>
 
 					<p>
-						Di era teknologi yang baru ini, kami melihat masa depan dengan keyakinan dan kebanggaan untuk perusahaan
-						kami.
+						Di era teknologi yang baru ini, kami melihat masa depan
+						dengan keyakinan dan kebanggaan untuk perusahaan kami.
 					</p>
 
 					<ul class="social">
 						<li>
-							<a href="https://x.com/bakmiponyo/" target="_blank" rel="noopener noreferrer">
+							<a
+								href="https://x.com/bakmiponyo/"
+								target="_blank"
+								rel="noopener noreferrer">
 								<i data-lucide="twitter" class="icon"> </i>
 							</a>
 						</li>
 						<li>
-							<a href="https://instagram.com/bakmiponyo/" target="_blank" rel="noopener noreferrer">
+							<a
+								href="https://instagram.com/bakmiponyo/"
+								target="_blank"
+								rel="noopener noreferrer">
 								<i data-lucide="instagram" class="icon"> </i>
 							</a>
 						</li>
 						<li>
-							<a href="https://facebook.com/bakmiponyo/" target="_blank" rel="noopener noreferrer">
+							<a
+								href="https://facebook.com/bakmiponyo/"
+								target="_blank"
+								rel="noopener noreferrer">
 								<i data-lucide="facebook" class="icon"> </i>
 							</a>
 						</li>
 						<li>
-							<a href="https://github.com/bakmiponyo" target="_blank" rel="noopener noreferrer">
+							<a
+								href="https://github.com/bakmiponyo"
+								target="_blank"
+								rel="noopener noreferrer">
 								<i data-lucide="github" class="icon"> </i>
 							</a>
 						</li>
@@ -298,10 +422,18 @@
 					<h5>Follow Us On Instagram</h5>
 
 					<div class="gallery">
-						<img src="img/galleries/gallery-1.jpg" alt="Instagram Gallery 1" />
-						<img src="img/galleries/gallery-2.jpg" alt="Instagram Gallery 2" />
-						<img src="img/galleries/gallery-3.jpg" alt="Instagram Gallery 3" />
-						<img src="img/galleries/gallery-4.jpg" alt="Instagram Gallery 4" />
+						<img
+							src="img/galleries/gallery-1.jpg"
+							alt="Instagram Gallery 1" />
+						<img
+							src="img/galleries/gallery-2.jpg"
+							alt="Instagram Gallery 2" />
+						<img
+							src="img/galleries/gallery-3.jpg"
+							alt="Instagram Gallery 3" />
+						<img
+							src="img/galleries/gallery-4.jpg"
+							alt="Instagram Gallery 4" />
 					</div>
 				</div>
 			</div>
